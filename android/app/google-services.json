@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "504814620641",
+    "project_id": "bulkbuysplitter",
+    "storage_bucket": "bulkbuysplitter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504814620641:android:b1bc9418c9914d531a0ca0",
+        "android_client_info": {
+          "package_name": "com.bulkbuysplitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504814620641-7fnt9v15r6gm6ic53cg7havkvd8ij0lg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bulkbuysplitter",
+            "certificate_hash": "6e99a502f3e232d0c8dc7adead3161b74f73c876"
+          }
+        },
+        {
+          "client_id": "504814620641-88qihluqujsc4f3bf57v6lgkd4pi29mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bulkbuysplitter",
+            "certificate_hash": "68d9fe78da4c505fe4d0d2208d02892295c9b8fd"
+          }
+        },
+        {
+          "client_id": "504814620641-8ipotv18scqrufgsl8111jh0snh5tt6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bulkbuysplitter",
+            "certificate_hash": "7f056d24510278e38fcf21fd4012595d5d16050f"
+          }
+        },
+        {
+          "client_id": "504814620641-90c6fnjqkoofpc8l0mj2ae0qt3m704n3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bulkbuysplitter",
+            "certificate_hash": "547ea4da854a0f986ad6fc82b8a1c117a267cba8"
+          }
+        },
+        {
+          "client_id": "504814620641-ckr8on5puush4qg6dsepcq3loal7l5ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bulkbuysplitter",
+            "certificate_hash": "94eedd691eb4d2cd2080e6d9718d32169e75580d"
+          }
+        },
+        {
+          "client_id": "504814620641-ipptuoviinu11t8lp886ood5ocopmc8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bulkbuysplitter",
+            "certificate_hash": "cee0b2ce20d815ae125bbfa57b7544b7600959e6"
+          }
+        },
+        {
+          "client_id": "504814620641-t5tojges9d0jk72712pm4d2h07et9o16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bulkbuysplitter",
+            "certificate_hash": "44c34cd8b0e1bb5873a195c27384c8a3bd5ab598"
+          }
+        },
+        {
+          "client_id": "504814620641-va9si6rc62vufl1dvt60u8ap3qmdi8sg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bulkbuysplitter",
+            "certificate_hash": "7300c81504928dc5ca4f4e7709f7d5831e007036"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANcpyBXugVrlfbhJYF9Ik_SciLr-sBjbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504814620641-obs6pc3iu6ea782jqop978tun1pdthgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "504814620641-8pgl9idu418j79e36f2qn7au9up0su03.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.appzoc.BulkBuySplitter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
