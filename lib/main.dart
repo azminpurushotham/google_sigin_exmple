@@ -10,6 +10,7 @@ import 'dart:convert' show json;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:google_sign_in_example/firebase_options.dart';
 import 'package:http/http.dart' as http;
 
 import 'src/web_wrapper.dart' as web;
@@ -21,8 +22,9 @@ String? clientId;
 /// To run this example, replace this value with your server client ID, and/or
 /// update the relevant configuration files, as described in the README.
 // String? serverClientId = '504814620641-obs6pc3iu6ea782jqop978tun1pdthgm.apps.googleusercontent.com';
-String? serverClientId = '504814620641-nr10tf1sku96b5s2b2rurshe5be90k7c.apps.googleusercontent.com';
-
+String? serverClientId = '504814620641-92b1vclk6rutu7dt3rrj1h9157vv2r0i.apps.googleusercontent.com';
+// String? serverClientId = '504814620641-nr10tf1sku96b5s2b2rurshe5be90k7c.apps.googleusercontent.com';
+// String? serverClientId =  DefaultFirebaseOptions.currentPlatform.serverClientId;
 /// The scopes required by this application.
 // #docregion CheckAuthorization
 const List<String> scopes = <String>[
@@ -105,6 +107,10 @@ class _SignInDemoState extends State<SignInDemo> {
   }
 
   Future<void> _handleAuthenticationError(Object e) async {
+    debugPrint('Error: $e');
+    debugPrint('Error: ${e is GoogleSignInException}');
+    debugPrint('Error: ${e is GoogleSignInException ? _errorMessageFromSignInException(e) : 'Unknown error: $e'}');
+    debugPrint('Error: ${e is GoogleSignInException ? _errorMessageFromSignInException(e) : 'Unknown error: $e'}');
     setState(() {
       _currentUser = null;
       _isAuthorized = false;

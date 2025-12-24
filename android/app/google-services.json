@@ -76,6 +76,10 @@
             "package_name": "com.bulkbuysplitter",
             "certificate_hash": "7300c81504928dc5ca4f4e7709f7d5831e007036"
           }
+        },
+        {
+          "client_id": "504814620641-92b1vclk6rutu7dt3rrj1h9157vv2r0i.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
@@ -87,7 +91,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "504814620641-obs6pc3iu6ea782jqop978tun1pdthgm.apps.googleusercontent.com",
+              "client_id": "504814620641-92b1vclk6rutu7dt3rrj1h9157vv2r0i.apps.googleusercontent.com",
               "client_type": 3
             },
             {

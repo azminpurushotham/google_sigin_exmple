@@ -1,7 +1,7 @@
 name: google_sign_in_example
 description: Example of Google Sign-In plugin.
 publish_to: 'none'
-version: 2.8.12+92
+version: 2.8.13+93
 
 
 environment:
@@ -11,18 +11,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^2.32.0
   google_sign_in:
     # When depending on this package from a real application you should use:
     #   google_sign_in: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.
-    path: ../
+    path: ..
   google_sign_in_web: ^1.1.0
   http: ">=0.13.0 <2.0.0"
+  # firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  # google_sign_in: ^6.2.1
 
 dev_dependencies:
-  espresso: ^0.4.0
   flutter_test:
     sdk: flutter
   integration_test:
